@@ -15,8 +15,8 @@ def assign_rooms(array_of_speakers)
   array_of_speakers.each_with_index{|x, index| result <<  "Hello, #{x}! You'll be assigned to room #{index+1}!"}
   return result
 end
-arr1 = batch_badge_creator()
-arr2 = assign_rooms()
+arr1 = batch_badge_creator(array_of_speakers)
+arr2 = assign_rooms(array_of_speakers)
 def printer
   #  arr1 = batch_badge_creator()
    arr1.each {|x| puts x}
