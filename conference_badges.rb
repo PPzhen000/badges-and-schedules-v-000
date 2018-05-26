@@ -17,6 +17,8 @@ def assign_rooms(array_of_speakers)
 end
 
 def printer
-   batch_badge_creator(array_of_speakers).each {|x| puts x}
-   assign_rooms(array_of_speakers).each {|x| puts x}
+   arr1 = batch_badge_creator(array_of_speakers)
+   arr1.each {|x| puts x}
+   arr2 = assign_rooms(array_of_speakers)
+   arr2.each {|x| puts x}
 end
