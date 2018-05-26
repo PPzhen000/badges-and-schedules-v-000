@@ -13,7 +13,7 @@ end
 def assign_rooms(array_of_speakers)
   result = []
   array_of_speakers.each_with_index{|x, index| result <<  "Hello, #{x}! You'll be assigned to room #{index+1}!"}
-  return result 
+  return result
 end
 
 # def printer
