@@ -4,12 +4,12 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-# def batch_badge_creator(array_of_speakers)
-#   result = []
-#   array_of_speakers.each {|x| result << badge_maker(x)}
-#   return result
-# end
-#
+def batch_badge_creator(array_of_speakers)
+  result = []
+  array_of_speakers.each {|x| result << badge_maker(x)}
+  return result
+end
+
 # def assign_rooms(array_of_speakers)
 #   result = []
 #   array_of_speakers.each_with_index{|x, index| result <<  "Hello, #{x}! You'll be assigned to room #{index+1}!"}
